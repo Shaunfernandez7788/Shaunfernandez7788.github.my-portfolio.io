@@ -54,67 +54,160 @@
 </head>
 <body class="antialiased">
 
-    <!-- 3D Background Canvas -->
     <canvas id="bg-canvas"></canvas>
 
-    <!-- Header/Navigation -->
     <header class="fixed top-0 left-0 right-0 z-10 p-6 flex justify-between items-center">
         <h1 class="text-2xl font-bold tracking-tight">Shaun Fernandez</h1>
         <nav class="hidden md:flex space-x-8">
             <a href="#home" class="text-lg font-medium nav-link">Home</a>
             <a href="#about" class="text-lg font-medium nav-link">About</a>
+            <a href="#skills" class="text-lg font-medium nav-link">Skills</a>
             <a href="#projects" class="text-lg font-medium nav-link">Projects</a>
             <a href="#contact" class="text-lg font-medium nav-link">Contact</a>
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
         <section id="home" class="content-section">
             <div class="max-w-3xl">
                 <img src="https://placehold.co/200x200/e0e0e0/333?text=Shaun" alt="Profile picture of Shaun Fernandez" class="w-48 h-48 rounded-full mx-auto mb-8 border-4 border-gray-700">
                 <h2 class="text-5xl md:text-7xl font-bold mb-4 leading-tight">Hi, I'm Shaun Fernandez</h2>
-                <p class="text-xl md:text-2xl text-gray-400 mb-8">A passionate full-stack enthusiast.</p>
+                <p class="text-xl md:text-2xl text-gray-400 mb-8">Full-Stack Engineer & AI Enthusiast</p>
                 <a href="#projects" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105">
                     View My Work
                 </a>
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="content-section">
             <div class="max-w-4xl glass-card p-8 md:p-12">
                 <h3 class="text-4xl font-bold mb-6">About Me</h3>
-                <p class="text-lg text-gray-300 leading-relaxed">
-                    I'm a passionate full-stack developer with a love for creating intuitive, dynamic, and high-performing web applications. With a strong foundation in both front-end and back-end technologies, I enjoy bringing ideas to life in the browser. My skills include JavaScript (React, Node.js), Python (Django), and database management. I'm currently seeking opportunities to contribute to innovative projects and grow as a developer.
+                <p class="text-lg text-gray-300 leading-relaxed text-left">
+                    I am a full-stack developer with a strong interest in building modern web applications and exploring the potential of Artificial Intelligence. My main strength lies in solving complex technical problems and turning them into functional, user-friendly software. I am committed to continuous learning and building digital solutions that are both robust and impactful.
                 </p>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="content-section">
+        <section id="skills" class="content-section">
             <div class="w-full max-w-6xl">
-                <h3 class="text-4xl font-bold mb-12">My Projects</h3>
-                <!-- Changed grid to better handle 2 items -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Project 1 -->
+                <h3 class="text-4xl font-bold mb-12">Skills</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="glass-card p-6 text-left">
-                        <h4 class="text-2xl font-bold mb-2">Project One - Fest Management System</h4>
-                        <p class="text-gray-400 mb-4">The Fest Management System is a dynamic web-based platform designed to streamline event registration and administration. It features a user-friendly interface with light/dark theme toggle, animated navigation, and responsive design. Built with HTML, CSS, JavaScript, Node.js, and MySQL, it enables secure user registration and admin access to manage participant data efficiently.</p>
-                        <a href="https://github.com/Shaunfernandez7788/fest-management-system" class="text-sky-400 hover:text-sky-300 font-semibold">View Project &rarr;</a>
+                        <h4 class="text-2xl font-bold mb-4 text-sky-400">Programming Languages</h4>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>• Java</li>
+                            <li>• Python</li>
+                            <li>• HTML, CSS, JavaScript</li>
+                            <li>• Tailwind CSS</li>
+                        </ul>
                     </div>
-                    <!-- Project 2 -->
                     <div class="glass-card p-6 text-left">
-                        <h4 class="text-2xl font-bold mb-2">Project Two - Promoting Cybersecurity Knowledge Via Gamification</h4>
-                        <p class="text-gray-400 mb-4">Promoting Cybersecurity Knowledge via Gamification is an innovative project aimed at enhancing cybersecurity awareness through interactive, game-based learning. It leverages engaging challenges and real-world scenarios to educate users on threats, safe practices, and prevention techniques. This approach incorporates transcripts to deliver clear, guided content and reinforce key concepts.</p>
-                        <a href="https://github.com/Shaunfernandez7788/CyberGuardianQuestXAI" class="text-sky-400 hover:text-sky-300 font-semibold">View Project &rarr;</a>
+                        <h4 class="text-2xl font-bold mb-4 text-sky-400">Libraries, Frameworks & Databases</h4>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>• Node.js & React</li>
+                            <li>• PyTorch</li>
+                            <li>• MySQL & MongoDB</li>
+                            <li>• Scikit-Learn</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card p-6 text-left">
+                        <h4 class="text-2xl font-bold mb-4 text-sky-400">Tools & Platforms</h4>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>• Git</li>
+                            <li>• VS Code & IntelliJ</li>
+                            <li>• Excel</li>
+                            <li>• Render</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <section id="projects" class="content-section">
+            <div class="w-full max-w-6xl">
+                <h3 class="text-4xl font-bold mb-12">My Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <div class="glass-card p-6 text-left flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-2xl font-bold mb-2">Fest Management System</h4>
+                            <p class="text-gray-400 mb-4">
+                                This web platform streamlines event registration and administration through a responsive, user-friendly interface. Built with Node.js and MySQL, it provides secure registration and efficient data management for both users and admins.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">HTML</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">CSS</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">JavaScript</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Node.js</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">MySQL</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Shaunfernandez7788/fest-management-system" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            View Project <span class="ml-2">→</span>
+                        </a>
+                    </div>
+
+                    <div class="glass-card p-6 text-left flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-2xl font-bold mb-2">CyberGuardianQuestXAI</h4>
+                            <p class="text-gray-400 mb-4">
+                                This innovative project uses game-based learning and real-world scenarios to educate users on cybersecurity threats. It features guided transcripts and gamified challenges to make complex digital safety topics accessible and engaging for everyone.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">React</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Node.js</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">MongoDB</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Tailwind CSS</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">FastAPI</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Shaunfernandez7788/CyberGuardianQuestXAI" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            View Project <span class="ml-2">→</span>
+                        </a>
+                    </div>
+
+                    <div class="glass-card p-6 text-left flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-2xl font-bold mb-2">MedOrbit AI Assistant</h4>
+                            <p class="text-gray-400 mb-4">
+                                This AI-powered health assistant uses machine learning to analyze symptoms and provide medical guidance. It integrates a Random Forest Classifier for disease prediction and Google Gemini for a conversational medical chatbot.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Python</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Flask</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Scikit-Learn</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Gemini API</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Bootstrap</span>
+                            </div>
+                        </div>
+                        <a href="#" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            View Project <span class="ml-2">→</span>
+                        </a>
+                    </div>
+
+                    <div class="glass-card p-6 text-left flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-2xl font-bold mb-2">StriveFit AI</h4>
+                            <p class="text-gray-400 mb-4">
+                                StriveFit AI is a comprehensive fitness platform that uses artificial intelligence to track workouts and provide personalized health insights. It bridges the gap between traditional fitness tracking and data-driven wellness for a better user experience.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">React.js</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Node.js</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">Tailwind</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">NLP</span>
+                                <span class="px-3 py-1 text-xs font-semibold bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-md">PyTorch</span>
+                            </div>
+                        </div>
+                        <a href="#" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center">
+                            View Project <span class="ml-2">→</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="content-section">
             <div class="max-w-3xl glass-card p-8 md:p-12">
                 <h3 class="text-4xl font-bold mb-6">Get In Touch</h3>
@@ -131,42 +224,35 @@
     </main>
 
     <script>
-        // Ensure the script runs after the canvas element is available
         window.onload = function() {
-            // --- THREE.JS SCENE SETUP ---
             const scene = new THREE.Scene();
             const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
             const renderer = new THREE.WebGLRenderer({
                 canvas: document.getElementById('bg-canvas'),
-                alpha: true // Allows for transparent background
+                alpha: true
             });
 
             renderer.setSize(window.innerWidth, window.innerHeight);
             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-            // --- OBJECTS ---
-            // Waving Plane
-            const planeGeometry = new THREE.PlaneGeometry(500, 500, 50, 50); // width, height, widthSegments, heightSegments
+            const planeGeometry = new THREE.PlaneGeometry(500, 500, 50, 50);
             const planeMaterial = new THREE.MeshStandardMaterial({
-                color: 0x1e293b, // A dark slate blue color
+                color: 0x1e293b,
                 metalness: 0.8,
                 roughness: 0.5,
-                wireframe: true // Render as a wireframe for a unique, techy look
+                wireframe: true
             });
             const plane = new THREE.Mesh(planeGeometry, planeMaterial);
-            plane.rotation.x = -Math.PI * 0.5; // Rotate it to be a horizontal floor
-            plane.position.y = -20; // Position it below the center of the scene
+            plane.rotation.x = -Math.PI * 0.5;
+            plane.position.y = -20;
             scene.add(plane);
-            // Store original vertex positions to calculate wave animation from a stable base
             const originalPositions = plane.geometry.attributes.position.clone();
 
-            // --- PARTICLES ---
             const particlesGeometry = new THREE.BufferGeometry;
             const particlesCount = 5000;
-            const posArray = new Float32Array(particlesCount * 3); // x, y, z for each particle
+            const posArray = new Float32Array(particlesCount * 3);
 
             for (let i = 0; i < particlesCount * 3; i++) {
-                // Assign random positions in a large cube
                 posArray[i] = (Math.random() - 0.5) * (Math.random() * 500);
             }
 
@@ -178,25 +264,19 @@
             const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
             scene.add(particlesMesh);
 
-            // --- LIGHTS ---
-            // Point Light 1
-            const pointLight1 = new THREE.PointLight(0xffffff, 1); // Reduced intensity slightly
+            const pointLight1 = new THREE.PointLight(0xffffff, 1);
             pointLight1.position.set(20, 20, 20);
             scene.add(pointLight1);
 
-            // Point Light 2
-            const pointLight2 = new THREE.PointLight(0x38bdf8, 1.5); // Blue light
+            const pointLight2 = new THREE.PointLight(0x38bdf8, 1.5);
             pointLight2.position.set(-20, -15, 10);
             scene.add(pointLight2);
             
-            // Ambient Light (to softly light the whole scene)
             const ambientLight = new THREE.AmbientLight(0x404040, 2);
             scene.add(ambientLight);
 
-            // --- CAMERA POSITION ---
             camera.position.z = 45;
 
-            // --- MOUSE INTERACTION ---
             let mouseX = 0;
             let mouseY = 0;
             document.addEventListener('mousemove', (event) => {
@@ -204,52 +284,38 @@
                 mouseY = event.clientY;
             });
 
-            // --- ANIMATION LOOP ---
             const clock = new THREE.Clock();
             const animate = () => {
                 const elapsedTime = clock.getElapsedTime();
 
-                // Animate Waving Plane
                 const positions = plane.geometry.attributes.position;
                 for (let i = 0; i < positions.count; i++) {
                     const x = originalPositions.getX(i);
                     const y = originalPositions.getY(i);
-                    
-                    // Use sine waves based on original position and elapsed time to create a wave effect
                     const z = Math.sin(x * 0.03 + elapsedTime * 0.5) * 2 + Math.sin(y * 0.03 + elapsedTime * 0.5) * 2;
                     positions.setZ(i, z);
                 }
-                positions.needsUpdate = true; // Tell three.js to update the geometry
+                positions.needsUpdate = true;
 
-                // Animate Particles
                 particlesMesh.rotation.y = -.02 * elapsedTime;
                 
-                // Move camera based on mouse position for a parallax effect
                 camera.position.x += (mouseX - camera.position.x * 5 - window.innerWidth / 2) * 0.0001;
                 camera.position.y += (-mouseY - camera.position.y * 5 + window.innerHeight / 2) * 0.0001;
                 camera.lookAt(scene.position);
 
-                // Render the scene
                 renderer.render(scene, camera);
-
-                // Call the loop again on the next frame
                 window.requestAnimationFrame(animate);
             };
 
             animate();
 
-            // --- RESIZE HANDLER ---
             window.addEventListener('resize', () => {
-                // Update camera aspect ratio
                 camera.aspect = window.innerWidth / window.innerHeight;
                 camera.updateProjectionMatrix();
-
-                // Update renderer size
                 renderer.setSize(window.innerWidth, window.innerHeight);
                 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
             });
 
-            // --- SMOOTH SCROLLING ---
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
